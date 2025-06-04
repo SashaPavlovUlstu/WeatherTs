@@ -1,0 +1,94 @@
+.CurrentWeather{
+  max-width: 257px;
+  max-height: 226px;
+  padding:0px 8px;
+  border-radius: 25px;
+  background-color: #BBD7EC;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HeaderWeather{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding:15px 0px;
+}
+hr{
+  width: 100%;
+  background-color:#39393A;
+  height:1px;
+  margin-top:13px;
+  margin-bottom:31px;
+}
+.dayCard{
+  padding:13px 23px 29px 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 96px;
+  max-height: 226px;
+  border-radius: 30px;
+  background-color: #1B1B1D;
+  .weatherIconBig{
+    width: 50px;
+    height: 50px;
+
+  }
+  .dayName{
+    font-size: 16px;
+  }
+  .dayTemp{
+    margin-top: 31px;
+    font-size: 32px;
+  }
+}
+.weatherIconBig{
+  width:66px;
+  height:53px;
+}
+.temperature{
+  font-size: 36px;
+}
+.mainWeather{
+  margin-top: 11px;
+  margin-left:14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.day{
+  color:black;
+  font-size: 16px;
+  text-align: center;
+}
+.time{
+  font-size: 16px;
+  color:black;
+}
+.lowWeather{
+  margin-top: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 11px;
+  gap:24px;
+}
+.details{
+  p{
+    color:#4F5658;
+    font-size: 12px;
+  }
+  span{
+    color:black;
+    font-size: 12px;
+  }
+}
+.sunTimes{
+
+}

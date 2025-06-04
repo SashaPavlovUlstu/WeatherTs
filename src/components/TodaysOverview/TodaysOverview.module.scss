@@ -1,0 +1,21 @@
+.OverviewWrapper{
+  display: flex;
+  justify-content: space-between;
+  h1{
+    font-size: 20px;
+    color: white;
+  }
+}
+.rightText{
+  display: flex;
+  justify-content: space-between;
+  max-width:297px;
+  width: 100%;
+  color:white;
+  h2{
+    font-size: 16px;
+  }
+  h3{
+    font-size: 14px;
+  }
+}

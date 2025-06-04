@@ -1,0 +1,13 @@
+.searchInput{
+  width: 492px;
+  background-color:#1E1E1E;
+  border:1px solid #1E1E1E;
+  border-radius:10px;
+  color:white;
+  font-size: 14px;
+  padding:10px 0px;
+  &::placeholder{
+    color:white;
+    font-size: 14px;
+  }
+}

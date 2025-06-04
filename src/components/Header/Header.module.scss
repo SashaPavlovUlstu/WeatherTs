@@ -1,0 +1,29 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.centerSection{
+  display: flex;
+  align-items: center;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: #888;
+}
+
+span{
+  color:white;
+  font-size: 16px;
+}
+.weatherHeader{
+  border-radius: 8px;
+  border:1px solid #626161;
+  background-color: #19191B;
+  color:white;
+  font-size: 16px;
+  padding:4px 8px;
+}
